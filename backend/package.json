@@ -1,0 +1,35 @@
+{
+  "name": "single-page-test-application",
+  "version": "1.0.0",
+  "description": "Create a single page test project for web development evaluation.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "pg": "^8.7.3",
+    "jsonwebtoken": "^9.0.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
